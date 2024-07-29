@@ -3,3 +3,6 @@ export const sum = (a, b, d) => {
   return a + b + c - d;
 };
 sub(1, 2);
+export const addSum = (a) => {
+  return a + sum(2,3);
+}
